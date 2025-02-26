@@ -1,3 +1,9 @@
+/*AUTHOR:Marian Witek
+*The file is free for any usage
+*https://infomaks.pl
+*/
+
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <string>
