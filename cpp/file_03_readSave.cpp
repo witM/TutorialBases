@@ -52,7 +52,7 @@ void main()
 	{
 		//read header
 		ReadHeader(in, &header);
-		if (std::strcmp(header.code, "sav")) {
+		if (std::strcmp(header.code, "sav") != 0) {
 			std::cout << "saved file format is wrong\n";
 			std::exit(0);
 		}
